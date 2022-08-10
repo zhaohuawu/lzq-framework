@@ -7,10 +7,10 @@ package token
  */
 
 import (
-	"lzq-framework/config"
 	"time"
 
 	"github.com/dgrijalva/jwt-go"
+	"github.com/zhaohuawu/lzq-framework/config"
 )
 
 type TokenClaims struct {

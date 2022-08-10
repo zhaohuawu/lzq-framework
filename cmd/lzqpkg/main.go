@@ -1,6 +1,6 @@
 package main
 
-import "lzq-framework/lzqpkg"
+import "github.com/zhaohuawu/lzq-framework/lzqpkg"
 
 func main() {
 	lzqpkg.NewLzqLog()

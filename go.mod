@@ -1,12 +1,10 @@
-module lzq-framework
+module github.com/zhaohuawu/lzq-framework
 
 go 1.18
 
 require (
-	github.com/ahmetb/go-linq/v3 v3.2.0
 	github.com/gin-gonic/gin v1.8.1
 	github.com/go-redis/redis/v8 v8.11.5
-	github.com/go-sql-driver/mysql v1.6.0
 	github.com/goinggo/mapstructure v0.0.0-20140717182941-194205d9b4a9
 	github.com/json-iterator/go v1.1.12
 	github.com/olivere/elastic/v7 v7.0.32

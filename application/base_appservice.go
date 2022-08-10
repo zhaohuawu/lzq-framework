@@ -10,10 +10,11 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"lzq-framework/lzqpkg"
 	"net/http"
 	"reflect"
 	"strings"
+
+	"github.com/zhaohuawu/lzq-framework/lzqpkg"
 
 	"github.com/gin-gonic/gin"
 	"github.com/goinggo/mapstructure"

@@ -10,9 +10,10 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	token "lzq-framework/auth"
-	"lzq-framework/config"
 	"time"
+
+	token "github.com/zhaohuawu/lzq-framework/auth"
+	"github.com/zhaohuawu/lzq-framework/config"
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-redis/redis/v8"

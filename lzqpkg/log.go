@@ -10,10 +10,11 @@ import (
 	"context"
 	"fmt"
 	"log"
-	"lzq-framework/config"
 	"os"
 	"strings"
 	"time"
+
+	"github.com/zhaohuawu/lzq-framework/config"
 
 	"github.com/olivere/elastic/v7"
 	"github.com/sirupsen/logrus"
